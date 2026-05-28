@@ -56,6 +56,7 @@ Create a GitHub repository for `yelp-somaliland-web` and push the code.
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
    - `SUPABASE_SERVICE_ROLE_KEY`
+   - `ADMIN_PASSWORD`
 5. Deploy.
 
 Vercel automatically builds Next.js projects. Supabase and Vercel both recommend setting environment variables per environment: Production, Preview, and Development.

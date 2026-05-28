@@ -47,6 +47,7 @@ See `DEPLOYMENT.md` and `PRODUCTION_CHECKLIST.md`.
 - Marketplace selling and buyer-request flow
 - Vendor signup, storefronts, vendor products, and product reviews
 - Taxi hailing request page and driver accept board
+- Protected admin dashboard at `/admin`
 - Consent-based analytics tables for product, order, and search insights
 - Categories: restaurants, cafes, hotels, pharmacies, clinics, gyms, barbers, supermarkets
 - Supabase schema for `businesses` and `reviews`

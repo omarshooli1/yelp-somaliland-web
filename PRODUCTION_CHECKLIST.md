@@ -13,6 +13,7 @@
 ## Vercel
 
 - Add environment variables for Production and Preview.
+- Add `ADMIN_PASSWORD` for `/admin`.
 - Confirm build command: `npm run build`.
 - Confirm root directory: `yelp-somaliland-web`.
 - Add custom domain.
