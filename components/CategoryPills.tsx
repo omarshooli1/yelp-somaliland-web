@@ -23,7 +23,7 @@ export function CategoryPills({ activeCategory }: CategoryPillsProps) {
           className={`whitespace-nowrap rounded-full px-4 py-2 text-sm font-bold ring-1 ${
             activeCategory === category.id
               ? 'bg-brand-red text-white ring-brand-red'
-              : 'bg-white text-slate-700 ring-slate-200 hover:ring-brand-red/40'
+              : 'bg-white text-slate-700 ring-slate-200 hover:ring-brand-red/40 hover:text-brand-red'
           }`}
         >
           {category.icon} {category.label}

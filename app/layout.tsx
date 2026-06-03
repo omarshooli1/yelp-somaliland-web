@@ -12,33 +12,40 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body className="min-h-screen bg-slate-50 text-brand-ink antialiased">
-        <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur">
-          <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-            <Link href="/" className="flex items-center gap-2 text-lg font-black">
-              <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand-red text-white">YS</span>
-              <span>Yelp Somaliland</span>
+        <header className="sticky top-0 z-30 bg-[#C41200]">
+          <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+            <Link href="/" className="text-2xl font-black italic text-white tracking-tight">
+              yelp
             </Link>
-            <div className="flex items-center gap-2">
-              <Link href="/" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
+            <div className="flex items-center gap-1">
+              <Link href="/" className="px-3 py-2 text-sm font-semibold text-white hover:text-white/80">
                 Home
               </Link>
-              <Link href="/marketplace" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
+              <Link href="/marketplace" className="px-3 py-2 text-sm font-semibold text-white hover:text-white/80">
                 Market
               </Link>
-              <Link href="/vendors" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
+              <Link href="/vendors" className="px-3 py-2 text-sm font-semibold text-white hover:text-white/80">
                 Vendors
               </Link>
-              <Link href="/taxi" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
+              <Link href="/taxi" className="px-3 py-2 text-sm font-semibold text-white hover:text-white/80">
                 Taxi
               </Link>
-              <Link href="/driver" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
-                Driver
-              </Link>
-              <Link href="/map" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
+              <Link href="/map" className="px-3 py-2 text-sm font-semibold text-white hover:text-white/80">
                 Map
               </Link>
-              <Link href="/businesses" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
+              <Link href="/businesses" className="px-3 py-2 text-sm font-semibold text-white hover:text-white/80">
                 Browse
+              </Link>
+            </div>
+            <div className="flex items-center gap-2">
+              <Link href="/write-review" className="rounded border border-white px-4 py-1.5 text-sm font-semibold text-white hover:bg-white/10">
+                Write a Review
+              </Link>
+              <Link href="/login" className="rounded bg-white px-4 py-1.5 text-sm font-semibold text-[#C41200] hover:bg-white/90">
+                Log In
+              </Link>
+              <Link href="/signup" className="rounded border border-white px-4 py-1.5 text-sm font-semibold text-white hover:bg-white/10">
+                Sign Up
               </Link>
             </div>
           </nav>
