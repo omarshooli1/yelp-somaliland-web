@@ -155,3 +155,44 @@ export type TaxiRide = {
   vehicle_label: string | null;
   created_at: string;
 };
+
+export type ServiceCategory =
+  | 'plumber'
+  | 'electrician'
+  | 'technician'
+  | 'ac_repair'
+  | 'carpenter'
+  | 'painter'
+  | 'cleaner'
+  | 'welder';
+
+export type ServiceProvider = {
+  id: string;
+  name: string;
+  category: ServiceCategory;
+  description: string;
+  phone: string;
+  whatsapp: string | null;
+  city: string;
+  address: string | null;
+  latitude: number | null;
+  longitude: number | null;
+  images: string[];
+  rating: number;
+  review_count: number;
+  verified: boolean;
+  years_experience: number | null;
+  price_range: string | null;
+  available: boolean;
+  created_at?: string;
+};
+
+export type ServiceReview = {
+  id: string;
+  provider_id: string;
+  reviewer_name: string;
+  reviewer_phone: string | null;
+  rating: number;
+  comment: string;
+  created_at: string;
+};
