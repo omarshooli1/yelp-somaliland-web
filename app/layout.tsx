@@ -28,7 +28,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <Link href="/vendors" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
                 Vendors
               </Link>
-            
+              <Link href="/services" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
+                Services
+              </Link>
               <Link href="/map" className="rounded-full bg-slate-100 px-4 py-2 text-sm font-bold text-slate-700 hover:bg-slate-200">
                 Map
               </Link>
